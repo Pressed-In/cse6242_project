@@ -2,29 +2,29 @@ body {
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 }
 
-#map-container {
+/* #map-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
+} */
 
 #map1 {
-    width: 500px;
-    height: 700px;
+    width: 80%;
+    height: 75vh;
     border: 5px solid gray;
     margin-bottom: 35px;
 }
 
 #map2 {
-    width: 500px;
-    height: 700px;
+    width: 80%;
+    height: 75vh;
     border: 5px solid gray;
     margin-bottom: 35px;
 }
 
 #map3 {
-    width: 500px;
-    height: 700px;
+    width: 80%;
+    height: 75vh;
     border: 5px solid gray;
 }
 
