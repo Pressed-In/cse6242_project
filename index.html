@@ -60,7 +60,8 @@
 <div id="sliderContainer" class="row " style="margin: auto">
 
     <div class="col d-flex flex-direction-row justify-content-center">
-		<input type="range" style="width: 75%;" id="timeSlider" min="1" max="11" value="1" style="float: left; padding: 6px;" oninput="updateTime(this.value);" onchange="updateTime(this.value);">
+		<!-- <input type="text" id="date_textbox" link-to="range" > -->
+		<input type="range" link-to="date_textbox" style="width: 40%;" id="timeSlider" min="1" max="11" value="1" style="float: left; padding: 6px;" oninput="updateTime(this.value);" onchange="updateTime(this.value);">
 		<div id="currentTime" style="display: flex; flex-direction: column; justify-content: center; float: left; padding-left: 6px; padding-right: 6px;"></div>
 	</div>
 </div>
@@ -193,7 +194,7 @@ var formatter = new Intl.NumberFormat('en-US', {
     timeIndex = index - 1;
     geojson.setStyle(setStyle);
     time = times[timeIndex];
-    document.getElementById('currentTime').innerHTML = time.slice(0, 10) + ' ' + time.slice(11, 16);
+    document.getElementById('currentTime').innerHTML = time;
 
 	info1.onAdd = function (map1) {
 		this._div = L.DomUtil.create('div', 'info1');
