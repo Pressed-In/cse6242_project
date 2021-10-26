@@ -13,6 +13,7 @@ body {
     height: 75vh;
     border: 5px solid gray;
     margin-bottom: 35px;
+    margin-top: 25px;
 }
 
 #map2 {
@@ -20,6 +21,7 @@ body {
     height: 75vh;
     border: 5px solid gray;
     margin-bottom: 35px;
+    margin-top: 25px;
 }
 
 #map3 {
@@ -27,6 +29,7 @@ body {
     height: 75vh;
     border: 5px solid gray;
     margin-bottom: 35px;
+    margin-top: 25px;
 }
 
 #sliderContainer {
